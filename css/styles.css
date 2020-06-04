@@ -34,8 +34,8 @@ body {
 /* Title Section */
 
 #title {
-  height: 100vh;
-  padding: 13%;
+  padding-top: 13%;
+  padding-bottom: 19%;
 }
 
 /* About Section */
