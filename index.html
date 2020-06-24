@@ -26,15 +26,26 @@
   </head>
 
   <body>
+    <nav class="navbar fixed-top">
+      <span class="navbar-brand mr-auto">Dan Nguyen</span>
+
+      <div class="row">
+        <a class="nav-item nav-link text-danger" href="#about">About</a>
+        <a class="nav-item nav-link text-primary" href="#skills">Skills</a>
+        <a class="nav-item nav-link text-warning" href="#projects">Projects</a>
+        <a class="nav-item nav-link text-success" href="#contact">Contact</a>
+      </div>
+    </nav>
+
     <section id="title">
-      <div class="container-fluid">
-        <h1 class="title-heading">Hi, I'm Dan</h1>
-        <h2>a web developer.</h2>
+      <div class="container">
+        <h1 class="title-heading"><span class="text-danger-hover">Hi, </span><span class="text-primary-hover">I'm </span><span class="text-warning-hover">Dan</span></h1>
+        <h2><span class="text-info-hover">a </span><span class="text-success-hover">web </span><span class="text-purple-hover">developer.</span></h2>
       </div>
     </section>
 
     <section id="about">
-      <div class="container-fluid alternate-color content-padding">
+      <div class="container content-padding">
         <h2 class="section-heading">About Me</h2>
         <img src="dan.jpg" alt="image of dan" class="profile-img" />
         <p class="about-text">
@@ -45,23 +56,23 @@
     </section>
 
     <section id="skills">
-      <div class="container-fluid content-padding">
+      <div class="container">
         <h2 class="section-heading">Skills</h2>
-        <div class="row">
+        <div class="row" style="text-align: left;">
           <div class="col-lg-6">
             <div class="row">
-              <div class="col-6">
+              <div class="col-4">
                 <ul class="skills-list">
                   <li class="skill-item">HTML</li>
                   <li class="skill-item">CSS</li>
                   <li class="skill-item">Javascript</li>
                 </ul>
               </div>
-              <div class="col-6">
+              <div class="col-8">
                 <div class="skills-list">
                   <div class="progress">
                     <div
-                      class="progress-bar progress-bar bg-danger"
+                      class="progress-bar bg-danger"
                       role="progressbar"
                       style="width: 80%;"
                       aria-valuenow="80"
@@ -71,7 +82,7 @@
                   </div>
                   <div class="progress">
                     <div
-                      class="progress-bar progress-bar bg-primary"
+                      class="progress-bar bg-primary"
                       role="progressbar"
                       style="width: 75%;"
                       aria-valuenow="75"
@@ -81,7 +92,7 @@
                   </div>
                   <div class="progress">
                     <div
-                      class="progress-bar progress-bar bg-warning"
+                      class="progress-bar bg-warning"
                       role="progressbar"
                       style="width: 75%;"
                       aria-valuenow="75"
@@ -95,17 +106,17 @@
           </div>
           <div class="col-lg-6">
             <div class="row">
-              <div class="col-6">
+              <div class="col-4">
                 <ul class="skills-list">
                   <li class="skill-item">Bootstrap</li>
                   <li class="skill-item">jQuery</li>
                   <li class="skill-item">Express.js</li>
                 </ul>
               </div>
-              <div class="col-6">
+              <div class="col-8">
                 <div class="progress">
                   <div
-                    class="progress-bar progress-bar purple"
+                    class="progress-bar purple"
                     role="progressbar"
                     style="width: 50%;"
                     aria-valuenow="50"
@@ -115,7 +126,7 @@
                 </div>
                 <div class="progress">
                   <div
-                    class="progress-bar progress-bar bg-info"
+                    class="progress-bar bg-info"
                     role="progressbar"
                     style="width: 50%;"
                     aria-valuenow="50"
@@ -125,7 +136,7 @@
                 </div>
                 <div class="progress">
                   <div
-                    class="progress-bar progress-bar bg-success"
+                    class="progress-bar bg-success"
                     role="progressbar"
                     style="width: 50%;"
                     aria-valuenow="50"
@@ -140,19 +151,20 @@
       </div>
     </section>
     <section id="projects">
-      <div class="container-fluid alternate-color content-padding">
+      <div class="container content-padding">
         <h2 class="section-heading">Projects</h2>
       </div>
     </section>
     <section id="contact">
-      <div class="container-fluid content-padding">
+      <div class="container content-padding">
         <h2 class="section-heading">Contact Me</h2>
-        <a class="fas fa-envelope-square" href="mailto:dn6dm@virginia.edu"></a>
+        <a class="fas fa-envelope-square text-danger" href="mailto:dn6dm@virginia.edu"></a>
+        <a class="fab fa-facebook-square text-primary" href="https://www.facebook.com/dan.nguyen1222/"></a>
         <a
-          class="fab fa-linkedin"
+          class="fab fa-linkedin text-warning"
           href="https://www.linkedin.com/in/dan-nguyen-2018/"
         ></a>
-        <a class="fab fa-github-square" href="https://github.com/dn6dm/"></a>
+        <a class="fab fa-github-square text-success" href="https://github.com/dn6dm/"></a>
       </div>
     </section>
 

@@ -1,13 +1,29 @@
 body {
-  background-color: #222831;
+  background-color: #020217;
   color: #eaeaea;
   text-align: center;
   font-family: "Ubuntu", sans-serif;
 }
 
-.alternate-color {
-  background-color: #eaeaea;
-  color: #393e46;
+nav {
+  background-color: rgb(27, 29, 53);
+  box-shadow: 0 4px 8px 0 rgba(15, 15, 15, 0.2),
+    0 6px 20px 0 rgba(15, 15, 15, 0.19);
+  color: #eaeaea;
+}
+
+.container {
+  background: rgb(27, 29, 53);
+  background: linear-gradient(
+    122deg,
+    rgba(27, 29, 53, 1) 0%,
+    rgba(6, 6, 34, 1) 65%,
+    rgba(27, 29, 53, 1) 100%
+  );
+  box-shadow: 0 4px 8px 0 rgba(15, 15, 15, 0.2),
+    0 6px 20px 0 rgba(15, 15, 15, 0.19);
+  color: #eaeaea;
+  margin-bottom: 100px;
 }
 
 .content-padding {
@@ -23,7 +39,6 @@ body {
 
 #title h2 {
   font-size: 4rem;
-  margin-bottom: 4rem;
 }
 
 .section-heading {
@@ -31,19 +46,58 @@ body {
   margin-bottom: 5%;
 }
 
+/* Nav Section */
+
+.text-purple {
+  color: purple;
+}
+
 /* Title Section */
 
-#title .container-fluid {
-  padding-top: 13%;
-  padding-bottom: 19%;
+#title .container {
+  margin-top: 18vh;
+  margin-bottom: 20vh;
+  padding-top: 5%;
+  padding-bottom: 11%;
+}
+
+.text-danger-hover:hover {
+  color: #dc3545;
+  cursor: default;
+}
+
+.text-primary-hover:hover {
+  color: #007bff;
+  cursor: default;
+}
+
+.text-warning-hover:hover {
+  color: #ffc107;
+  cursor: default;
+}
+
+.text-success-hover:hover {
+  color: #28a745;
+  cursor: default;
+}
+
+.text-info-hover:hover {
+  color: #17a2b8;
+  cursor: default;
+}
+
+.text-purple-hover:hover {
+  color: purple;
+  cursor: default;
 }
 
 /* About Section */
 
 .profile-img {
-  border: 2px solid #393e46;
+  border: 3px solid #dc3545;
   border-radius: 100%;
   height: 10rem;
+  margin-top: 6%;
   margin-bottom: 5%;
 }
 
@@ -53,13 +107,19 @@ body {
 
 /* Skills Section */
 
+#skills .container {
+  padding: 5%;
+}
+
 .skills-list {
   list-style-type: none;
+  margin-top: 47px;
   padding: 0;
 }
 
 .skill-item {
   margin: 15%;
+  margin-bottom: 30%;
 }
 
 .progress {
@@ -75,7 +135,6 @@ body {
 /* Contact Section */
 
 #contact a {
-  color: #eaeaea;
   font-size: 2.5rem;
   margin: 2% 3%;
 }
