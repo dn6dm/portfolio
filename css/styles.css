@@ -20,7 +20,7 @@ body {
 }
 
 .content-padding {
-  padding: 6% 22%;
+  padding: 6%
 }
 
 /* Headings */
@@ -103,6 +103,8 @@ nav {
 
 .about-text {
   font-size: 1rem;
+  margin: 0 auto;
+  width: 50%;
 }
 
 /* Skills Section */
@@ -131,6 +133,70 @@ nav {
 }
 
 /* Projects Section */
+
+.project-padding {
+  padding: 6%;
+}
+
+.project-row {
+  background-color: #242629;
+  border-radius: 4px;
+  color: #eaeaea;
+  margin: 2rem auto;
+  padding: 2rem;
+  width: 100%;
+  text-align: left;
+  position: relative;
+}
+
+@media (min-width: 1200px) {
+  .project-row {
+    height: 300px;
+  }
+}
+
+.project-row p {
+  font-weight: 300;
+}
+
+.project-span {
+  border-radius: 50px;
+  color: #242629;
+  padding: 5px;
+}
+
+.project-span:hover {
+  color: #eaeaea;
+  cursor: default;
+}
+
+.project-img-left {
+  float: left;
+  height: 250px;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+
+.project-img-right {
+  float: right;
+  height: 250px;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 1200px) {
+  .project-img-left {
+    display: none;
+  }
+
+  .project-img-right {
+    display: none;
+  }
+}
+
+.project-links {
+  margin-top: 1rem;
+}
 
 /* Contact Section */
 

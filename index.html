@@ -22,6 +22,10 @@
       integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
       crossorigin="anonymous"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/styles.css" />
   </head>
 
@@ -109,7 +113,7 @@
               <div class="col-4">
                 <ul class="skills-list">
                   <li class="skill-item">Bootstrap</li>
-                  <li class="skill-item">jQuery</li>
+                  <li class="skill-item">EJS</li>
                   <li class="skill-item">Express.js</li>
                 </ul>
               </div>
@@ -152,21 +156,80 @@
     </section>
 
     <section id="projects">
-      <div class="container content-padding">
+      <div class="container project-padding">
         <h2 class="section-heading">Projects</h2>
+        <div class="project-row">
+          <img
+            src="currency-exchange-1.png"
+            alt="currency-exchange-website"
+            class="project-img-left"
+          />
+          <h3>Currency Exchange Rates</h3>
+          <p>
+            A web application that provides exchange rate information for
+            cryptocurrencies and fiat currencies using the CoinAPI.
+          </p>
+          <span class="project-span bg-warning">Node.JS</span>
+          <span class="project-span bg-info">EJS</span>
+          <span class="project-span bg-success">Express</span>
+          <span class="project-span purple">Heroku</span>
+          <div class="project-links">
+            <a
+              class="btn btn-outline-light"
+              href="https://young-cove-98484.herokuapp.com/"
+              target="_blank"
+              >Live</a
+            >
+            <a
+              class="btn btn-outline-light"
+              href="https://github.com/dn6dm/currency-exchange-rates"
+              target="_blank"
+              >Github</a
+            >
+          </div>
+        </div>
+        <div class="project-row">
+          <img
+            src="camelcamelcamel-mockup.png"
+            alt="camelcamelcamel-mockup"
+            class="project-img-right"
+          />
+          <h3>Camelcamelcamel Mockup</h3>
+          <p>
+            A mockup redesign of the Camelcamelcamel website. Created with HTML,
+            CSS, and Bootstrap, the website features a responsive design
+            suitable for all devices.
+          </p>
+          <span class="project-span bg-danger">HTML</span>
+          <span class="project-span bg-primary">CSS</span>
+          <span class="project-span purple">Bootstrap</span>
+          <div class="project-links">
+            <a class="btn btn-outline-light" href="#" target="_blank">Live</a>
+            <a class="btn btn-outline-light" href="#" target="_blank">Github</a>
+          </div>
+        </div>
       </div>
     </section>
 
     <section id="contact">
       <div class="container content-padding">
         <h2 class="section-heading">Contact Me</h2>
-        <a class="fas fa-envelope-square text-danger" href="mailto:dn6dm@virginia.edu"></a>
-        <a class="fab fa-facebook-square text-primary" href="https://www.facebook.com/dan.nguyen1222/"></a>
         <a
-          class="fab fa-linkedin text-warning"
+          class="fas fa-envelope-square text-light"
+          href="mailto:dn6dm@virginia.edu"
+        ></a>
+        <a
+          class="fab fa-facebook-square text-light"
+          href="https://www.facebook.com/dan.nguyen1222/"
+        ></a>
+        <a
+          class="fab fa-linkedin text-light"
           href="https://www.linkedin.com/in/dan-nguyen-2018/"
         ></a>
-        <a class="fab fa-github-square text-success" href="https://github.com/dn6dm/"></a>
+        <a
+          class="fab fa-github-square text-light"
+          href="https://github.com/dn6dm/"
+        ></a>
       </div>
     </section>
 
